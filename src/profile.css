@@ -1,0 +1,99 @@
+.split {
+  width: 50%;
+}
+
+.profileleft {
+  left:0;
+}
+.profileright {
+  right:0;
+}
+
+@media only screen and (max-width: 1065px) {
+  /* .profileleft{
+    left: 0;
+    margin-bottom: auto;
+  }
+  .profileright {
+    left: 0;
+    margin-top: auto;
+  }
+  .split{
+    width: 100%;
+  } */
+}
+
+.image {
+  
+  width: 400px;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+  border-radius: 10%;
+}
+
+.profile h6 {
+  color: grey;
+}
+
+.profile button {
+  color: white;
+  background-color: #1DA1F2;
+  border-radius: 8px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.profile p {
+  max-width: 80%;
+}
+
+.GroupProfile h6 {
+  color: grey;
+}
+
+.GroupProfile button {
+  color: #1DA1F2;
+  background-color: white;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.GroupProfile p {
+  max-width: 80%;
+}
+
+.cursor_pointer{
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .head {
+  align-self: flex-start;
+  padding-left: 7rem;
+  margin: 1rem;
+} */
+
+.nounderline{
+  text-decoration: none
+}
+
+.profilecarousel{
+  margin-top: 5%;
+  padding-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  right : 0;
+}
